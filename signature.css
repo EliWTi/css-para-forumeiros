@@ -1,0 +1,86 @@
+https://dl.dropboxusercontent.com/s/lojv268ovunafkm/My%20Pace.css
+
+
+/*
+
+       _ __ ___  ___ ___   _ __ ___  ___  ___  _   _ _ __ ___ ___  ___ 
+      | '__/ _ \/ __/ __| | '__/ _ \/ __|/ _ \| | | | '__/ __/ _ \/ __|
+      | | | (_) \__ \__ \ | | |  __/\__ \ (_) | |_| | | | (_|  __/\__ \
+      |_|  \___/|___/___/ |_|  \___||___/\___/ \__,_|_|  \___\___||___/
+
+
+                      https://rossresources.tumblr.com/
+   
+                    CRIADO POR ROSS, NÃO TIRE OS CRÉDITOS
+
+                                *:･ﾟ✧*:･ﾟ✧
+
+                   CREATED BY ROSS DON'T REMOVE MY CREDITS
+          
+*/
+
+#rmypace {
+  --image-width: 230px;
+  --border-color: #fff;
+  width: fit-content;
+  background: #63B7FF;
+  position: relative;
+  box-sizing: border-box;
+  margin: 55px 0;
+}
+
+#rmypace table {
+  border-spacing: 20px;
+}
+
+#rmypace .rimg {
+  width: var(--image-width);
+  background: center/cover;
+  opacity: .9;
+  border: 3px solid var(--border-color);
+  padding: 2px;
+  background-clip: content-box;
+}
+
+#rmypace .rtexture {
+  width: 100%;
+  height: 100%;
+  background: url(https://www.photohdx.com/images/2016/12/pink-paper-background-texture.jpg) center/cover;
+  mix-blend-mode: hard-light;
+  opacity: .3;
+}
+
+#rmypace .rsub {
+  width: 100px;
+  height: 100px;
+  border: 3px solid var(--border-color);
+  padding: 3px;
+  color: var(--border-color);
+  font: bold 21px/130% 'Oswald';
+  text-transform: uppercase;
+  text-align: center;
+  text-align-last: center;
+  box-sizing: border-box;
+}
+
+#rmypace .rsub b {
+  display: block;
+  font-size: 35px;
+}
+
+#rmypace .rsub i {
+  font-style: normal;
+  font-size: 37px;
+  letter-spacing: 3px;
+  line-height: 110%;
+}
+
+#rmypace a[href="https://is.gd/rossr"] .rsmoke {
+  width: 100%;
+  height: 100%;
+  background: url(https://t4.ftcdn.net/jpg/00/57/89/81/240_F_57898155_RKzitzmyhUzwPPfx1ZYqbVsQhMyNLRbd.jpg) center/cover;
+  mix-blend-mode: screen;
+  filter: brightness(1.2);
+  position: absolute;
+  bottom: 0;
+}
