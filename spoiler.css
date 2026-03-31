@@ -1,9 +1,7 @@
-/* Cor do título do spoiler quando fechado */
-.spoiler_closed {
-    color: #e1b98e; /* muda para vermelho */
+.meu-post-especial .spoiler_closed {
+    color: #e1b98e !important;
 }
 
-/* Cor do título do spoiler quando aberto */
-.spoiler_opened {
-    color: #e1b98e; /* mantém vermelho, ou mude para outra cor */
+.meu-post-especial .spoiler_opened {
+    color: #e1b98e !important;
 }
