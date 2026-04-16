@@ -2,7 +2,8 @@
 https://dl.dropboxusercontent.com/s/bs687k1gf5c0b3m/Clementia.css*/
 
 .rclement-container {
-  width: 450px;
+  width: 100%;
+  max-width: 450px;
   border: 3px solid #000;
   outline: 1px solid #000;
   outline-offset: 1px;
@@ -11,8 +12,10 @@ https://dl.dropboxusercontent.com/s/bs687k1gf5c0b3m/Clementia.css*/
 
 .rclement-img {
   height: 0;
+  padding-top: 50%;
   background: center/cover;
-  transition: all 1s ease;
+  transition: all 0.8s ease;
+  overflow: hidden;
 }
 
 .rclement-container:after {
@@ -51,7 +54,7 @@ https://dl.dropboxusercontent.com/s/bs687k1gf5c0b3m/Clementia.css*/
 }
 
 .rclement-container:hover .rclement-img {
-  height: 225px;
+  padding-top: 50%;
   transition: all 1s ease;
 }
 
