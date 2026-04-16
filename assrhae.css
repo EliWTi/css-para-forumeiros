@@ -17,27 +17,27 @@ https://dl.dropboxusercontent.com/s/bs687k1gf5c0b3m/Clementia.css*/
 
 .rclement-container:after {
   display: block;
-  margin-top: -9px;
+  margin-top: -16px;
   position: relative;
-  top: 17px;
+  top: 30px;
   content: "「R」";
-  font: bold 8px Consolas;
+  font: bold 12px Consolas;
   letter-spacing: -.5px;
   opacity: .5;
 }
 
 .rclement-tituloc {
-  height: 50px;
+  height: 90px;
   background: #831616;
   box-sizing: border-box;
-  font: bold 11px Consolas;
+  font: bold 16px Consolas;
   text-transform: uppercase;
-  padding-top: 20px;
+  padding-top: 36px;
   color: #000;
 }
 
 .rclement-titulo1 {
-  font: italic bold 22px/9px Times;
+  font: italic bold 36px/16px Times;
   text-transform: lowercase;
   letter-spacing: -1px;
   transition: all 1s ease;
@@ -45,19 +45,19 @@ https://dl.dropboxusercontent.com/s/bs687k1gf5c0b3m/Clementia.css*/
 
 .rclement-titulo2 {
   opacity: 0;
-  font-size: 9px;
-  margin-top: -11px;
+  font-size: 16px;
+  margin-top: -20px;
   transition: all 1s ease;
 }
 
 .rclement-container:hover .rclement-img {
-  height: 125px;
+  height: 225px;
   transition: all 1s ease;
 }
 
 .rclement-container:hover .rclement-tituloc {
   border-top: 3px solid #000;
-  padding-top: 21px;
+  padding-top: 38px;
   transition: all 1s ease;
 }
 
