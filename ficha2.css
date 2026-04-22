@@ -39,10 +39,11 @@ position: relative;
 left: -140px;
 }
 #snpc_i img {
-width: 230px;
-height: 230px;
-object-fit: cover;
-filter: grayscale(100%);
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  filter: none;
+  mix-blend-mode: normal;
 }
 #snpc_n {
 width: 260px;
