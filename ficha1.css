@@ -1,0 +1,106 @@
+/*--
+
+BLOODLINES ── CHARACTER PROFILE TEMPLATE BY
+╔══╗╔═══╗╔═══╗╔═══╗╔═══╗╔═╗─╔╗╔════╗
+║╔═╝║╔═╗║║╔═╗║║╔══╝║╔══╝║ ╚╗║║║╔╗╔╗║
+║╚═╗║║─║║║╚═╝║║║╔═╗║╚══╗║╔╗╚╝║╚╝║║╚╝
+╚═╗║║╚═╝║║╔╗╔╝║║╚╗║║╔══╝║║╚╗ ║──║║
+╔═╝║║╔═╗║║║║║─║╚═╝║║╚══╗║║─║ ║──║║
+╚══╝╚╝─╚╝╚╝╚╝ ╚═══╝╚═══╝╚╝─╚═╝──╚╝
+http://sargentcodes.tumblr.com
+http://astro-graphics.tumblr.com
+
+--*/
+
+#scp_b {
+width: 500px;
+height: auto;
+padding: 35px;
+background: var(--color1);
+position: relative;
+}
+
+/*PIC AND BASICS*/
+
+#scp_i {
+width: 250px;
+height: 320px;
+background: var(--color2);
+position: relative;
+left: -125px;
+}
+#scp_i img {
+width: 250px;
+height: 320px;
+object-fit: cover;
+mix-blend-mode: multiply;
+}
+#scp_n {
+width: 350px;
+height: 120px;
+overflow: hidden;
+font: italic 900 50px 'Nunito Sans';
+text-transform: uppercase;
+text-align: left;
+-moz-text-fill-color:transparent;
+-webkit-text-fill-color:transparent;
+-moz-text-stroke-color: var(--color3);
+-webkit-text-stroke-color: var(--color3);
+-moz-text-stroke-width: 1px;  
+-webkit-text-stroke-width: 1px;
+text-shadow: 5px 3px 0px var(--color2);
+line-height: 60px;
+position: absolute;
+top: 80px;
+right: 35px;
+}
+#scp_inf {
+width: 240px;
+height: 120px;
+overflow: hidden;
+text-align: left;
+font: italic 10px arial;
+letter-spacing: 2px;
+line-height: 25px;
+color: var(--color3);
+text-transform: lowercase;
+position: absolute;
+right: 35px;
+top: 238px;
+}
+#scp_inf tt {
+font: 900 13px 'nunito sans';
+text-transform: uppercase;
+padding-right: 5px;
+color: var(--color2);
+}
+
+/*STORY AND PERSONALITY*/
+#scp_cont {
+width: 100%;
+font: 11px calibri;
+color: var(--color3);
+line-height: 120%;
+text-align: justify;
+}
+#scp_sp {
+font: 900 30px 'nunito sans';
+text-transform: uppercase;
+padding-right: 5px;
+letter-spacing: 4px;
+text-align: right;
+color: var(--color2);
+margin: 20px 0 5px 0;
+}
+
+/*CREDITS*/
+#scp_b:after {
+content: 'SGT';
+position: absolute;
+bottom: -8px;
+right: 0px;
+text-align: right;
+font: bold 6px arial;
+letter-spacing: 1px;
+}
+#scp_b:hover:after { content: 'SARGENT @ ASTRO GRAPHICS'; }
