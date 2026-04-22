@@ -17,6 +17,7 @@ http://astro-graphics.tumblr.com
 width: 500px;
 height: auto;
 padding: 35px;
+background: var(--color1);
 position: relative;
 }
 #snpc_cc {
@@ -33,15 +34,16 @@ margin-top: 20px;
 #snpc_i {
 width: 230px;
 height: 230px;
+background: transparent;
 position: relative;
 left: -140px;
 }
 #snpc_i img {
-  width: 230px;
-  height: 230px;
-  object-fit: cover;
-  filter: none;
-  mix-blend-mode: normal;
+width: 230px;
+height: 230px;
+object-fit: cover;
+filter: none;
+mix-blend-mode: normal;
 }
 #snpc_n {
 width: 260px;
@@ -110,6 +112,7 @@ position: absolute;
 left: 0px;
 top: 0px;
 height: 18px;
+background: var(--color2);
 }
 
 #snpc_cont {
