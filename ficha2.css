@@ -17,7 +17,6 @@ http://astro-graphics.tumblr.com
 width: 500px;
 height: auto;
 padding: 35px;
-background: var(--color1);
 position: relative;
 }
 #snpc_cc {
@@ -111,7 +110,6 @@ position: absolute;
 left: 0px;
 top: 0px;
 height: 18px;
-background: var(--color2);
 }
 
 #snpc_cont {
