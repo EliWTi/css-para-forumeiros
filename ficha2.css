@@ -34,7 +34,7 @@ margin-top: 20px;
 #snpc_i {
 width: 230px;
 height: 230px;
-background: transparent;
+background: transparent !important;
 position: relative;
 left: -140px;
 }
@@ -42,8 +42,8 @@ left: -140px;
 width: 230px;
 height: 230px;
 object-fit: cover;
-filter: none;
-mix-blend-mode: normal;
+filter: none !important;
+mix-blend-mode: normal !important;
 }
 #snpc_n {
 width: 260px;
@@ -72,7 +72,7 @@ text-align: left;
 font: italic 10px arial;
 letter-spacing: 2px;
 line-height: 25px;
-color: transparent;
+color: var(--color3);
 text-transform: lowercase;
 position: absolute;
 right: 35px;
@@ -90,7 +90,7 @@ color: var(--color2);
 display: inline-block;
 width: 218px;
 height: 18px;
-border: 1px solid transparent;
+border: 1px solid var(--color3);
 overflow: hidden;
 font: bold 10px 'nunito sans';
 color: var(--color3);
@@ -118,7 +118,7 @@ background: var(--color2);
 #snpc_cont {
 width: 100%;
 font: 11px calibri;
-color: transparent;
+color: var(--color3);
 line-height: 120%;
 text-align: justify;
 margin: 20px 0;
@@ -148,7 +148,7 @@ padding: 5px 0;
 font: bold 9.5px 'nunito sans';
 text-transform: uppercase;
 letter-spacing: 2px;
-color: transparent;
+color: var(--color3);
 margin-top: 10px;
 }
 #snpc_sk lvl {
