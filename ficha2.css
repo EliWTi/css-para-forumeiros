@@ -72,7 +72,7 @@ text-align: left;
 font: italic 10px arial;
 letter-spacing: 2px;
 line-height: 25px;
-color: var(--color3);
+color: transparent;
 text-transform: lowercase;
 position: absolute;
 right: 35px;
@@ -90,7 +90,7 @@ color: var(--color2);
 display: inline-block;
 width: 218px;
 height: 18px;
-border: 1px solid var(--color3);
+border: 1px solid transparent;
 overflow: hidden;
 font: bold 10px 'nunito sans';
 color: var(--color3);
@@ -118,7 +118,7 @@ background: var(--color2);
 #snpc_cont {
 width: 100%;
 font: 11px calibri;
-color: var(--color3);
+color: transparent;
 line-height: 120%;
 text-align: justify;
 margin: 20px 0;
@@ -148,7 +148,7 @@ padding: 5px 0;
 font: bold 9.5px 'nunito sans';
 text-transform: uppercase;
 letter-spacing: 2px;
-color: var(--color3);
+color: transparent;
 margin-top: 10px;
 }
 #snpc_sk lvl {
