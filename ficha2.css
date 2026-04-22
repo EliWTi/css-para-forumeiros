@@ -1,0 +1,168 @@
+/*--
+
+BLOODLINES ── NPC TEMPLATE BY
+╔══╗╔═══╗╔═══╗╔═══╗╔═══╗╔═╗─╔╗╔════╗
+║╔═╝║╔═╗║║╔═╗║║╔══╝║╔══╝║ ╚╗║║║╔╗╔╗║
+║╚═╗║║─║║║╚═╝║║║╔═╗║╚══╗║╔╗╚╝║╚╝║║╚╝
+╚═╗║║╚═╝║║╔╗╔╝║║╚╗║║╔══╝║║╚╗ ║──║║
+╔═╝║║╔═╗║║║║║─║╚═╝║║╚══╗║║─║ ║──║║
+╚══╝╚╝─╚╝╚╝╚╝ ╚═══╝╚═══╝╚╝─╚═╝──╚╝
+http://sargentcodes.tumblr.com
+http://astro-graphics.tumblr.com
+
+--*/
+
+/*BASE*/
+#snpc_b {
+width: 500px;
+height: auto;
+padding: 35px;
+background: var(--color1);
+position: relative;
+}
+#snpc_cc {
+background: var(--color4);
+}
+.snpc_cont {
+width: 500px;
+position: relative;
+overflow: hidden;
+margin-top: 20px;
+}
+
+/*BASICS*/
+#snpc_i {
+width: 230px;
+height: 230px;
+background: var(--color2);
+position: relative;
+left: -140px;
+}
+#snpc_i img {
+width: 230px;
+height: 230px;
+object-fit: cover;
+mix-blend-mode: multiply;
+}
+#snpc_n {
+width: 260px;
+height: 60px;
+overflow: hidden;
+font: italic 900 50px 'Nunito Sans';
+text-transform: uppercase;
+text-align: center;
+-moz-text-fill-color:transparent;
+-webkit-text-fill-color:transparent;
+-moz-text-stroke-color: var(--color3);
+-webkit-text-stroke-color: var(--color3);
+-moz-text-stroke-width: 1px;  
+-webkit-text-stroke-width: 1px;
+text-shadow: 5px 3px 0px var(--color2);
+line-height: 60px;
+position: absolute;
+top: 60px;
+right: 35px;
+}
+#snpc_inf {
+width: 260px;
+height: 120px;
+overflow: hidden;
+text-align: left;
+font: italic 10px arial;
+letter-spacing: 2px;
+line-height: 25px;
+color: var(--color3);
+text-transform: lowercase;
+position: absolute;
+right: 35px;
+top: 148px;
+}
+#snpc_inf tt {
+font: 900 13px 'nunito sans';
+text-transform: uppercase;
+padding-right: 5px;
+color: var(--color2);
+}
+
+/*ABILITIES*/
+#snpc_ab {
+display: inline-block;
+width: 218px;
+height: 18px;
+border: 1px solid var(--color3);
+overflow: hidden;
+font: bold 10px 'nunito sans';
+color: var(--color3);
+letter-spacing: 3px;
+text-transform: uppercase;
+position: relative;
+border-radius: 50px;
+margin: 8px 15px;
+}
+
+#snpc_ab tt {
+width: 198px;
+left: 0px;
+text-align: center;
+position: absolute;
+line-height: 20px; }
+.sfill {
+position: absolute;
+left: 0px;
+top: 0px;
+height: 18px;
+background: var(--color2);
+}
+
+#snpc_cont {
+width: 100%;
+font: 11px calibri;
+color: var(--color3);
+line-height: 120%;
+text-align: justify;
+margin: 20px 0;
+}
+#snpc_cont tt {
+display: block;
+font: 900 25px 'nunito sans';
+color: var(--color2);
+letter-spacing: 4px;
+text-transform: uppercase;
+padding-bottom: 5px;
+text-align: right; 
+}
+#snpc_cont itm { display: block; margin-bottom: 10px; }
+#snpc_cont itm:before { 
+content: '>';
+color: var(--color2);
+margin-right: 5px;
+font: 900 12px 'nunito sans';
+}
+
+#snpc_sk {
+display: inline-block;
+width: 160px;
+height: 25px;
+padding: 5px 0;
+font: bold 9.5px 'nunito sans';
+text-transform: uppercase;
+letter-spacing: 2px;
+color: var(--color3);
+margin-top: 10px;
+}
+#snpc_sk lvl {
+color: var(--color2);
+display: block;
+}
+
+/*CREDITS*/
+#snpc_b:after {
+content: 'SGT';
+position: absolute;
+bottom: -8px;
+right: 0px;
+text-align: right;
+font: bold 6px arial;
+letter-spacing: 1px;
+}
+#snpc_b:hover:after { content: 'SARGENT @ ASTRO GRAPHICS'; }
