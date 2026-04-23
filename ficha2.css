@@ -70,7 +70,7 @@ right: 35px;
 top: 238px;
 }
 #scp_inf tt {
-font: 900 16px 'nunito sans';
+font: 900 16px 'nunito sans' !important;
 text-transform: uppercase;
 padding-right: 5px;
 color: var(--color2);
@@ -79,7 +79,7 @@ color: var(--color2);
 /*STORY AND PERSONALITY*/
 #scp_cont {
 width: 100%;
-font: 16px calibri;
+font: 16px calibri !important;
 color: var(--color3);
 line-height: 120%;
 text-align: justify;
