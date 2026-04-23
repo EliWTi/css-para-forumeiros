@@ -79,7 +79,7 @@ color: var(--color2);
 /*STORY AND PERSONALITY*/
 #scp_cont {
 width: 100%;
-font: 14px calibri;
+font: 16px calibri;
 color: var(--color3);
 line-height: 120%;
 text-align: justify;
