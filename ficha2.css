@@ -34,7 +34,7 @@ margin-top: 20px;
 #scp_i {
 width: 250px;
 height: 320px;
-background: var(--color2);
+background: transparent !important;
 position: relative;
 left: -125px;
 }
@@ -42,7 +42,8 @@ left: -125px;
 width: 250px;
 height: 320px;
 object-fit: cover;
-mix-blend-mode: multiply;
+filter: none !important;
+mix-blend-mode: normal !important;
 }
 #scp_n {
 width: 350px;
