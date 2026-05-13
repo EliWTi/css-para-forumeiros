@@ -1,5 +1,5 @@
 /*--
-
+https://dl.dropbox.com/s/2rexu214y476ocg/bl_npc.css
 BLOODLINES ── CHARACTER PROFILE TEMPLATE BY
 ╔══╗╔═══╗╔═══╗╔═══╗╔═══╗╔═╗─╔╗╔════╗
 ║╔═╝║╔═╗║║╔═╗║║╔══╝║╔══╝║ ╚╗║║║╔╗╔╗║
@@ -11,13 +11,22 @@ http://sargentcodes.tumblr.com
 http://astro-graphics.tumblr.com
 
 --*/
-
-#scp_b {
+/*BASICS*/
+#snpc_b {
 width: 500px;
 height: auto;
 padding: 35px;
 background: var(--color1);
 position: relative;
+}
+#snpc_cc {
+background: var(--color4);
+}
+.snpc_cont {
+width: 500px;
+position: relative;
+overflow: hidden;
+margin-top: 20px;
 }
 
 /*PIC AND BASICS*/
@@ -33,7 +42,6 @@ left: -125px;
 width: 250px;
 height: 320px;
 object-fit: cover;
-filter: grayscale(100%);
 mix-blend-mode: multiply;
 }
 #scp_n {
@@ -105,3 +113,4 @@ font: bold 6px arial;
 letter-spacing: 1px;
 }
 #scp_b:hover:after { content: 'SARGENT @ ASTRO GRAPHICS'; }
+
